@@ -5,7 +5,6 @@ from keras.models import load_model
 import tkinter as tk
 from tkinter import *
 
-
 pred = ""
 
 # funtion to predict emotion
