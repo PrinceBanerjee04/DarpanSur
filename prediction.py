@@ -7,9 +7,7 @@ from tkinter import *
 
 pred = ""
 
-# funtion to predict emotion
-
-
+#Funtion to Predict Emotion
 def predict():
     model = load_model("model.h5")
     label = np.load("labels.npy")
