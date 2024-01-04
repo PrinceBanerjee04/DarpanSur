@@ -68,7 +68,7 @@ def predict():
     cap.release()
 
 
-# funtion to search song on youtube
+# Funtion to search song on youtube
 def search():
     import webbrowser
 
@@ -84,7 +84,7 @@ def search():
         webbrowser.open(search_query)
 
 
-# main function
+#Main Function
 if __name__ == "__main__":
     root = Tk()
     root.title("DarpanSur")
